@@ -1,4 +1,4 @@
-{{- $APIRegistrationAPIVersion := ternary "apiregistration.k8s.io/v1" "apiregistration.k8s.io/v1beta1" (.Capabilities.APIVersions.Has "apiregistration.k8s.io/v1") -}}
+{{- $APIRegistrationAPIVersion := "apiregistration.k8s.io/v1" -}}
 apiVersion: {{ $APIRegistrationAPIVersion }}
 kind: APIService
 metadata:

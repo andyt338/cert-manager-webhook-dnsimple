@@ -1,4 +1,4 @@
-{{- $CertManagerAPIVersion := ternary "cert-manager.io/v1" "cert-manager.io/v1alpha2" (.Capabilities.APIVersions.Has "cert-manager.io/v1") -}}
+{{- $CertManagerAPIVersion := "cert-manager.io/v1" -}}
 ---
 # Create a selfsigned Issuer, in order to create a root CA certificate for
 # signing webhook serving certificates
