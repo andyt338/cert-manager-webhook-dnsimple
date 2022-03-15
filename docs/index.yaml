@@ -3,9 +3,9 @@ entries:
   cert-manager-webhook-dnsimple:
   - apiVersion: v1
     appVersion: 0.1.1
-    created: "2022-03-15T10:45:38.873809-07:00"
+    created: "2022-03-15T11:27:26.095751-07:00"
     description: cert-manager webhook solver for ACME DNS01 challenge via DNSimple
-    digest: fb9e679014ed4aea4d049dc786cb97162732be3f59fcf15d26506383fa73e125
+    digest: a4abb617f4c61f31ce75e66699f930ab3d85be4495b2a6ab5c2fedf4f727f150
     home: https://github.com/andyt338/cert-manager-webhook-dnsimple
     maintainers:
     - email: andyt338@gmail.com
@@ -16,4 +16,4 @@ entries:
     urls:
     - cert-manager-webhook-dnsimple-0.1.1.tgz
     version: 0.1.1
-generated: "2022-03-15T10:45:38.873136-07:00"
+generated: "2022-03-15T11:27:26.095089-07:00"
